@@ -1,8 +1,7 @@
 body, html{
     height: 110%;
     margin: 0;
-    background-image: url('../images/faq.jpg');
-    background-size: cover;
+
     padding: 2px;
 
 
@@ -14,6 +13,9 @@ body, html{
 div.whole-section{
     text-align: center;
     margin: auto;
+    background-image: url('../images/faq.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
@@ -102,9 +104,9 @@ div.QA-index p:nth-child(8){
 .glow-on-hover {
     position: absolute;
     top: 30px;
-    left: -500px;
-    width: 220px;
-    height: 50px;
+    left: -130px;
+    width: 110px;
+    height: 70px;
     border: none;
     outline: none;
     color: #fff;
@@ -117,7 +119,7 @@ div.QA-index p:nth-child(8){
 
 .glow-on-hover:before {
     content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #45FF2A, #00FF5B);
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #00FF47, #45FF2A, #00FF5B);
     position: absolute;
     top: -2px;
     left:-2px;
@@ -161,7 +163,4 @@ div.QA-index p:nth-child(8){
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
-
-
-
 
